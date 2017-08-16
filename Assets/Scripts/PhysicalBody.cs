@@ -30,7 +30,7 @@ namespace PlanetSpawner
             }
         }
 
-        void Attract(PhysicalBody objToAttract)
+        void Attract(PhysicalBody attractedBody)
         {
             // calculate force
             // f = G m1m2 / r2
@@ -43,7 +43,7 @@ namespace PlanetSpawner
 
             // use the rigibodies as the m1 and m2
             var m1 = rb;
-            var m2 = objToAttract.rb;
+            var m2 = attractedBody.rb;
             var G = GameManager.gravitationalConstant;
             
             // get the direction between the two objects
@@ -54,7 +54,7 @@ namespace PlanetSpawner
             // on-top of each other. collision
             if (r == 0f) return;
             
-            //f = G m1m2 / r2
+            //F = G m1m2 / r2
             var F = G * (m1.mass * m2.mass) / Mathf.Pow(r, 2);
 
             Vector3 force = direction.normalized * F;

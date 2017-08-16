@@ -198,6 +198,10 @@ Prefab:
       propertyPath: m_Name
       value: EarthMedium (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 171858, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 2}
   m_IsPrefabParent: 0
@@ -388,6 +392,14 @@ Prefab:
     - target: {fileID: 135778, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 2}
       propertyPath: m_Name
       value: EarthMedium (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 171858, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 119514, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 2}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 2}
@@ -601,6 +613,10 @@ Prefab:
     - target: {fileID: 2342188, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 2}
       propertyPath: m_Enabled
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 171858, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 2}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2f6c5d6ec779606459f39a8773a9fb35, type: 2}
